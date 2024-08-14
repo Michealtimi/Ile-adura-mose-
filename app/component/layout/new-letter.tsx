@@ -4,8 +4,8 @@ import React from "react";
 export default function NewsLetter() {
   return (
     <>
-      <div>
-        <div className="relative grid items-center w-full h-[150px] lg:h-[300px] overflow-clip max-w-6xl mx-auto">
+      <div >
+        <div className="relative grid items-center w-full h-[200px] md:h-[400px] overflow-clip max-w-8xl mx-auto">
           <Image
             src="/chu2.jpg"
             alt="church logo"
@@ -14,21 +14,21 @@ export default function NewsLetter() {
             className=" w-full h-full object-cover object-center"
           />
           <div className="absolute  bg-red-700 top-0 justify-center h-full w-full opacity-70"></div>
-          <div className="absolute flex flex-col  justify-center items-center lg:items-center lg:w-full w-full  gap-2 lg:gap-3  ">
-            <p className=" text-center  lg:w-full w-[300px] font-bold lg:text-[25px] text-[15px] text-white">
+          <div className="absolute flex flex-col  justify-center items-center md:items-center md:w-full w-full  gap-2 md:gap-3  ">
+            <p className=" text-center  md:w-full w-full font-bold md:text-[40px] text-[24px] text-white">
              
               Subscribe to Our Monthly Church NewsLetter
             </p>
-            <p className="  font-bold lg:text-[14px] text-[9px] text-white text-center lg:top-[40px] lg:w-full w-[250px]">
+            <p className="  font-bold md:text-[22px] text-[16px] text-white text-center md:top-[40px] md:w-full w-full">
              
               stay in the loop about new teaching, content,
               <br /> & update To ECNook
             </p>
-            <div className="items-center flex justify-center bg-[#1f1e1eea] lg:px-3 lg:py-3 rounded-xl px-2 py-2  ">
+            <div className="items-center flex justify-center bg-[#1f1e1eea] md:px-3 md:py-3 rounded-xl px-1 py-1  ">
               <input
                 placeholder="Email Address"
                 type="text"
-                className="text-[10px] lg:text-[20px]  border-none bg-slate-100  text-black rounded-lg  placeholder:text-black w-[200px] mx-auto lg:w-[600px]  lg:h-[60px] h-[30px]"
+                className="text-[10px] md:text-[20px]  border-black border-8 md:border-8 bg-slate-100  text-black rounded-md  placeholder:text-black w-[250px] mx-auto md:w-[800px]  md:h-[60px] h-[30px]"
               />
             </div>
           </div>
